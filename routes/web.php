@@ -13,5 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-
-Route::get('/','App\Http\Controllers\SiteController@index');
+Route::get('/', function () {
+    return view('welcome');
+});
