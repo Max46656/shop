@@ -21,5 +21,6 @@ Route::namespace ('App\Http\Controllers')->group(function () {
 
     Route::get('/', 'SiteController@index');
     Route::get('shopforshop', 'SiteController@shop');
+    Route::get('papaview', 'SiteController@papaview');
 
 });

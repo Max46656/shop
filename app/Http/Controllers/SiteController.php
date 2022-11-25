@@ -12,4 +12,9 @@ class SiteController extends Controller
     {
         return view('shop');
     }
+    public function papaview()
+    {
+        return view('layouts.master');
+    }
+
 }

@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Watch shop |@yield('title')</title>
+    <title>FutureStore |@yield('title')</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="manifest" href="site.webmanifest">
@@ -51,7 +51,7 @@
                         <div class="main-menu d-none d-lg-block">
                             <nav>
                                 <ul id="navigation">
-                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="">Home</a></li>
                                     <li><a href="shop.html">shop</a></li>
                                     <li><a href="about.html">about</a></li>
                                     <li class="hot"><a href="#">Latest</a>
