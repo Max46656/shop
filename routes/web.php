@@ -21,5 +21,10 @@ Route::namespace ('App\Http\Controllers')->group(function () {
 
     Route::get('/', 'SiteController@index');
     Route::get('shopforshop', 'SiteController@shop');
+    Route::get('login', 'SiteController@login');
+    Route::get('cart', 'SiteController@cart');
+    Route::get('elements', 'SiteController@elements');
+    Route::get('confirmation', 'SiteController@confirmation');
+    Route::get('checkout', 'SiteController@checkout');
 
 });
