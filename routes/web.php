@@ -19,11 +19,6 @@ use Illuminate\Support\Facades\Route;
 
 Route::namespace ('App\Http\Controllers')->group(function () {
 
-<<<<<<< Updated upstream
-    Route::get('/', 'SiteController@index');
-    Route::get('shopforshop', 'SiteController@shop');
-    Route::get('papaview', 'SiteController@papaview');
-=======
     Route::get('papaview', 'SiteController@papaview');
     Route::get('/', 'SiteController@index');
     Route::get('shop', 'SiteController@shop');
@@ -35,6 +30,5 @@ Route::namespace ('App\Http\Controllers')->group(function () {
     Route::get('confirmation', 'SiteController@confirmation');
     Route::get('checkout', 'SiteControlloer@checkut');
     Route::get('contact', 'SiteController@contact');
->>>>>>> Stashed changes
 
 });

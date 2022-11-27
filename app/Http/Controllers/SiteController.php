@@ -16,14 +16,6 @@ class SiteController extends Controller
     {
         return view('shop');
     }
-<<<<<<< Updated upstream
-    public function papaview()
-    {
-        return view('layouts.master');
-    }
-
-}
-=======
     public function about()
     {
         return view('about');
@@ -58,4 +50,3 @@ class SiteController extends Controller
     }
 
 }
->>>>>>> Stashed changes
