@@ -68,19 +68,11 @@
                                     </li>
                                     <li><a href="#">Pages</a>
                                         <ul class="submenu">
-<<<<<<< HEAD
-                                            <li><a href="{{url('/Login')}}">Login</a></li>
-                                            <li><a href="{{url('/Cart')}}">Cart</a></li>
-                                            <li><a href="{{url('/Element')}}">Element</a></li>
-                                            <li><a href="{{url('/Confirmation')}}">Confirmation</a></li>
-                                            <li><a href="{{url('/Product Checkout')}}">Product Checkout</a></li>
-=======
                                             <li><a href={{ url('login') }}>Login</a></li>
                                             <li><a href={{ url('cart') }}>Cart</a></li>
                                             <li><a href={{url('elements')}}>Element</a></li>
                                             <li><a href={{url('confirmation')}}>Confirmation</a></li>
                                             <li><a href={{url('checkout')}}>Product Checkout</a></li>
->>>>>>> origin/俊澄
                                         </ul>
                                     </li>
                                     <li><a href="{{url('/Contact')}}">Contact</a></li>

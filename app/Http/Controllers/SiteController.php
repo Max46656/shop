@@ -12,7 +12,6 @@ class SiteController extends Controller
     {
         return view('shop');
     }
-<<<<<<< HEAD
     public function about()
     {
         return view('about');
@@ -26,7 +25,6 @@ class SiteController extends Controller
         return view('layouts.master');
     }
 
-=======
     public function login()
     {
         return view('login');
@@ -47,5 +45,4 @@ class SiteController extends Controller
     {
         return view('checkout');
     }
->>>>>>> origin/俊澄
 }
