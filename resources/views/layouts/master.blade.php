@@ -51,6 +51,7 @@
                         <div class="main-menu d-none d-lg-block">
                             <nav>
                                 <ul id="navigation">
+<<<<<<< Updated upstream
                                     <li><a href="">Home</a></li>
                                     <li><a href="shop.html">shop</a></li>
                                     <li><a href="about.html">about</a></li>
@@ -64,10 +65,26 @@
                                         <ul class="submenu">
                                             <li><a href="blog.html">Blog</a></li>
                                             <li><a href="blog-details.html">Blog Details</a></li>
+=======
+                                    <li><a href="{{url('/')}}">Home</a></li>
+                                    <li><a href="{{url('shop')}}">shop</a></li>
+                                    <li><a href="{{url('about')}}">about</a></li>
+                                    <li class="hot"><a href="{{url('#')}}">Latest</a>
+                                        <ul class="submenu">
+                                            <li><a href="{{url('shop')}}"> Product list</a></li>
+                                            <li><a href="{{url('product_details')}}"> Product Details</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="{{url('blog')}}">Blog</a>
+                                        <ul class="submenu">
+                                            <li><a href="{{url('blog')}}">Blog</a></li>
+                                            <li><a href="{{url('blog_details')}}">Blog Details</a></li>
+>>>>>>> Stashed changes
                                         </ul>
                                     </li>
                                     <li><a href="#">Pages</a>
                                         <ul class="submenu">
+<<<<<<< Updated upstream
                                             <li><a href="login.html">Login</a></li>
                                             <li><a href="cart.html">Cart</a></li>
                                             <li><a href="elements.html">Element</a></li>
@@ -76,6 +93,16 @@
                                         </ul>
                                     </li>
                                     <li><a href="contact.html">Contact</a></li>
+=======
+                                            <li><a href={{ url('login') }}>Login</a></li>
+                                            <li><a href={{ url('cart') }}>Cart</a></li>
+                                            <li><a href={{url('elements')}}>Element</a></li>
+                                            <li><a href={{url('confirmation')}}>Confirmation</a></li>
+                                            <li><a href={{url('checkout')}}>Product Checkout</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="{{url('contact')}}">Contact</a></li>
+>>>>>>> Stashed changes
                                 </ul>
                             </nav>
                         </div>

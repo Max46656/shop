@@ -1,7 +1,15 @@
 @extends('layouts.master')
+<<<<<<< Updated upstream
 @section('title','Hi')
 @section('content')
         <!--? slider Area Start -->
+=======
+
+@section('title','首頁')
+
+@section('content')
+<!--? slider Area Start -->
+>>>>>>> Stashed changes
         <div class="slider-area ">
             <div class="slider-active">
                 <!-- Single Slider -->
@@ -69,7 +77,7 @@
                                 <img src="{{asset('img/gallery/new_product1.png')}}" alt="">
                             </div>
                             <div class="product-caption">
-                                <h3><a href="product_details.html">Thermo Ball Etip Gloves</a></h3>
+                                <h3><a href="{{url('product_details')}}">Thermo Ball Etip Gloves</a></h3>
                                 <span>$ 45,743</span>
                             </div>
                         </div>
@@ -80,7 +88,7 @@
                                 <img src="{{asset('img/gallery/new_product2.png')}}" alt="">
                             </div>
                             <div class="product-caption">
-                                <h3><a href="product_details.html">Thermo Ball Etip Gloves</a></h3>
+                                <h3><a href="{{url('product_details')}}">Thermo Ball Etip Gloves</a></h3>
                                 <span>$ 45,743</span>
                             </div>
                         </div>
@@ -91,7 +99,7 @@
                                 <img src="{{asset('img/gallery/new_product3.png')}}" alt="">
                             </div>
                             <div class="product-caption">
-                                <h3><a href="product_details.html">Thermo Ball Etip Gloves</a></h3>
+                                <h3><a href="{{url('product_details')}}">Thermo Ball Etip Gloves</a></h3>
                                 <span>$ 45,743</span>
                             </div>
                         </div>
@@ -158,7 +166,7 @@
                                 </div>
                             </div>
                             <div class="popular-caption">
-                                <h3><a href="product_details.html">Thermo Ball Etip Gloves</a></h3>
+                                <h3><a href="{{url('product_details')}}">Thermo Ball Etip Gloves</a></h3>
                                 <span>$ 45,743</span>
                             </div>
                         </div>
@@ -175,7 +183,7 @@
                                 </div>
                             </div>
                             <div class="popular-caption">
-                                <h3><a href="product_details.html">Thermo Ball Etip Gloves</a></h3>
+                                <h3><a href="{{url('product_details')}}">Thermo Ball Etip Gloves</a></h3>
                                 <span>$ 45,743</span>
                             </div>
                         </div>
@@ -192,7 +200,7 @@
                                 </div>
                             </div>
                             <div class="popular-caption">
-                                <h3><a href="product_details.html">Thermo Ball Etip Gloves</a></h3>
+                                <h3><a href="{{url('product_details')}}">Thermo Ball Etip Gloves</a></h3>
                                 <span>$ 45,743</span>
                             </div>
                         </div>
@@ -209,7 +217,7 @@
                                 </div>
                             </div>
                             <div class="popular-caption">
-                                <h3><a href="product_details.html">Thermo Ball Etip Gloves</a></h3>
+                                <h3><a href="{{url('product_details')}}">Thermo Ball Etip Gloves</a></h3>
                                 <span>$ 45,743</span>
                             </div>
                         </div>
@@ -226,7 +234,7 @@
                                 </div>
                             </div>
                             <div class="popular-caption">
-                                <h3><a href="product_details.html">Thermo Ball Etip Gloves</a></h3>
+                                <h3><a href="{{url('product_details')}}">Thermo Ball Etip Gloves</a></h3>
                                 <span>$ 45,743</span>
                             </div>
                         </div>
@@ -243,7 +251,7 @@
                                 </div>
                             </div>
                             <div class="popular-caption">
-                                <h3><a href="product_details.html">Thermo Ball Etip Gloves</a></h3>
+                                <h3><a href="{{url('product_details')}}">Thermo Ball Etip Gloves</a></h3>
                                 <span>$ 45,743</span>
                             </div>
                         </div>
