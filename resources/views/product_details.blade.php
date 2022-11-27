@@ -2,7 +2,6 @@
 
 @section('title','產品明細')
 
-
 @section('content')
       <!-- Hero Area Start-->
         <div class="slider-area ">
@@ -26,13 +25,13 @@
                 <div class="col-lg-12">
                 <div class="product_img_slide owl-carousel">
                     <div class="single_product_img">
-                        <img src="assets/img/gallery/gallery1.png" alt="#" class="img-fluid">
+                        <img src="{{asset('img/gallery/gallery1.png')}}" alt="#" class="img-fluid">
                     </div>
                     <div class="single_product_img">
-                        <img src="assets/img/gallery/gallery01.png" alt="#" class="img-fluid">
+                        <img src="{{asset('img/gallery/gallery01.pn')}}g" alt="#" class="img-fluid">
                     </div>
                     <div class="single_product_img">
-                        <img src="assets/img/gallery/gallery1.png" alt="#" class="img-fluid">
+                        <img src="{{asset('img/gallery/gallery1.png')}}" alt="#" class="img-fluid">
                     </div>
                 </div>
                 </div>

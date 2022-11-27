@@ -4,6 +4,10 @@ namespace App\Http\Controllers;
 
 class SiteController extends Controller
 {
+    public function papaview()
+    {
+        return view('layouts.master');
+    }
     public function index()
     {
         return view('index');
@@ -20,11 +24,6 @@ class SiteController extends Controller
     {
         return view('product_details');
     }
-    public function papaview()
-    {
-        return view('layouts.master');
-    }
-
     public function login()
     {
         return view('login');
@@ -44,5 +43,9 @@ class SiteController extends Controller
     public function checkout()
     {
         return view('checkout');
+    }
+    public function contact()
+    {
+        return view('contact');
     }
 }
