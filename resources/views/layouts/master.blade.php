@@ -68,7 +68,6 @@
                                     </li>
                                     <li><a href="#">Pages</a>
                                         <ul class="submenu">
-<<<<<<< Updated upstream
                                             <li><a href={{ url('login') }}>Login</a></li>
                                             <li><a href={{ url('cart') }}>Cart</a></li>
                                             <li><a href={{url('elements')}}>Element</a></li>
