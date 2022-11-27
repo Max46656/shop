@@ -20,5 +20,9 @@ class SiteController extends Controller
     {
         return view('product_details');
     }
+    public function papaview()
+    {
+        return view('layouts.master');
+    }
 
 }
