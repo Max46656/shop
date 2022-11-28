@@ -34,6 +34,7 @@ Route::namespace ('App\Http\Controllers')->group(function () {
     Route::get('cart', 'SiteController@cart');
     Route::get('elements', 'SiteController@elements');
     Route::get('confirmation', 'SiteController@confirmation');
-    Route::get('checkout', 'SiteController@checkout');
+    Route::get('blog', 'SiteController@blog');
+    Route::get('blog_details', 'SiteController@blogdetails');
 
 });

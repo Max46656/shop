@@ -60,17 +60,10 @@
                                             <li><a href="{{url('/product_details')}}"> Product Details</a></li>
                                         </ul>
                                     </li>
-<<<<<<< HEAD
                                     <li><a href="{{url('blog')}}">Blog</a>
                                         <ul class="submenu">
                                             <li><a href="{{url('blog')}}">Blog</a></li>
-                                            <li><a href="{{url('blogdetails')}}">Blog Details</a></li>
-=======
-                                    <li><a href="{{url('/Blog')}}">Blog</a>
-                                        <ul class="submenu">
-                                            <li><a href="{{url('/Blog')}}">Blog</a></li>
-                                            <li><a href="{{url('/Blog Details')}}">Blog Details</a></li>
->>>>>>> b5d1d9bb54a1795b46dd382ec99db6ea96e0423d
+                                            <li><a href="{{url('blog_details')}}">Blog Details</a></li>
                                         </ul>
                                     </li>
                                     <li><a href="#">Pages</a>
@@ -82,11 +75,7 @@
                                             <li><a href={{url('checkout')}}>Product Checkout</a></li>
                                         </ul>
                                     </li>
-<<<<<<< HEAD
                                     <li><a href="{{url('contact')}}">Contact</a></li>
-=======
-                                    <li><a href="{{url('/Contact')}}">Contact</a></li>
->>>>>>> b5d1d9bb54a1795b46dd382ec99db6ea96e0423d
                                 </ul>
                             </nav>
                         </div>

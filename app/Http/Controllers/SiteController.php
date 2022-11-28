@@ -16,11 +16,13 @@ class SiteController extends Controller
     {
         return view('shop');
     }
-    public function blog(){
-      return view('blog');
+    public function blog()
+    {
+        return view('blog');
     }
-    public function blogdetails(){
-      return view('blogdetails');
+    public function blogdetails()
+    {
+        return view('blogdetails');
     }
     public function about()
     {
