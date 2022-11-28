@@ -2,16 +2,17 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
-
 class SiteController extends Controller
 {
-    public function index(){
-      return view('index');
+    public function index()
+    {
+        return view('index');
     }
-    public function shop(){
-      return view('shop');
+    public function shop()
+    {
+        return view('shop');
     }
+<<<<<<< HEAD
      public function contact(){
       return view('contact');
     }
@@ -21,4 +22,6 @@ class SiteController extends Controller
     public function blogdetails(){
       return view('blogdetails');
     }
+=======
+>>>>>>> d245978d0427470766a2998ef6eff35820085b30
 }
