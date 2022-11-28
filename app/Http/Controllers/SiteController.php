@@ -4,6 +4,10 @@ namespace App\Http\Controllers;
 
 class SiteController extends Controller
 {
+    public function papaview()
+    {
+        return view('layouts.master');
+    }
     public function index()
     {
         return view('index');
@@ -12,16 +16,42 @@ class SiteController extends Controller
     {
         return view('shop');
     }
-<<<<<<< HEAD
-     public function contact(){
-      return view('contact');
-    }
     public function blog(){
       return view('blog');
     }
     public function blogdetails(){
       return view('blogdetails');
     }
-=======
->>>>>>> d245978d0427470766a2998ef6eff35820085b30
+    public function about()
+    {
+        return view('about');
+    }
+    public function product_details()
+    {
+        return view('product_details');
+    }
+    public function login()
+    {
+        return view('login');
+    }
+    public function cart()
+    {
+        return view('cart');
+    }
+    public function elements()
+    {
+        return view('elements');
+    }
+    public function confirmation()
+    {
+        return view('confirmation');
+    }
+    public function checkout()
+    {
+        return view('checkout');
+    }
+    public function contact()
+    {
+        return view('contact');
+    }
 }

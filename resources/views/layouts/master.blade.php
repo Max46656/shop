@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Watch shop |@yield('title')</title>
+    <title>FutureStore |@yield('title')</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="manifest" href="site.webmanifest">
@@ -51,31 +51,42 @@
                         <div class="main-menu d-none d-lg-block">
                             <nav>
                                 <ul id="navigation">
-                                    <li><a href="index.html">Home</a></li>
-                                    <li><a href="shop.html">shop</a></li>
-                                    <li><a href="about.html">about</a></li>
-                                    <li class="hot"><a href="#">Latest</a>
+                                    <li><a href="{{url('/')}}">Home</a></li>
+                                    <li><a href="{{url('/shop')}}">shop</a></li>
+                                    <li><a href="{{url('/about')}}">about</a></li>
+                                    <li class="hot"><a href="{{url('#')}}">Latest</a>
                                         <ul class="submenu">
-                                            <li><a href="shop.html"> Product list</a></li>
-                                            <li><a href="product_details.html"> Product Details</a></li>
+                                            <li><a href="{{url('/shop')}}"> Product list</a></li>
+                                            <li><a href="{{url('/product_details')}}"> Product Details</a></li>
                                         </ul>
                                     </li>
+<<<<<<< HEAD
                                     <li><a href="{{url('blog')}}">Blog</a>
                                         <ul class="submenu">
                                             <li><a href="{{url('blog')}}">Blog</a></li>
                                             <li><a href="{{url('blogdetails')}}">Blog Details</a></li>
+=======
+                                    <li><a href="{{url('/Blog')}}">Blog</a>
+                                        <ul class="submenu">
+                                            <li><a href="{{url('/Blog')}}">Blog</a></li>
+                                            <li><a href="{{url('/Blog Details')}}">Blog Details</a></li>
+>>>>>>> b5d1d9bb54a1795b46dd382ec99db6ea96e0423d
                                         </ul>
                                     </li>
                                     <li><a href="#">Pages</a>
                                         <ul class="submenu">
-                                            <li><a href="login.html">Login</a></li>
-                                            <li><a href="cart.html">Cart</a></li>
-                                            <li><a href="elements.html">Element</a></li>
-                                            <li><a href="confirmation.html">Confirmation</a></li>
-                                            <li><a href="checkout.html">Product Checkout</a></li>
+                                            <li><a href={{ url('login') }}>Login</a></li>
+                                            <li><a href={{ url('cart') }}>Cart</a></li>
+                                            <li><a href={{url('elements')}}>Element</a></li>
+                                            <li><a href={{url('confirmation')}}>Confirmation</a></li>
+                                            <li><a href={{url('checkout')}}>Product Checkout</a></li>
                                         </ul>
                                     </li>
+<<<<<<< HEAD
                                     <li><a href="{{url('contact')}}">Contact</a></li>
+=======
+                                    <li><a href="{{url('/Contact')}}">Contact</a></li>
+>>>>>>> b5d1d9bb54a1795b46dd382ec99db6ea96e0423d
                                 </ul>
                             </nav>
                         </div>

@@ -13,25 +13,27 @@ use Illuminate\Support\Facades\Route;
 |
  */
 
-<<<<<<< HEAD
-//Route::get('/', function () {
-    //return view('welcome');
-//});
-
-Route::namespace('App\Http\Controllers')->group(function(){
-  Route::get('/','SiteController@index');
-  Route::get('/shop','SiteController@shop');
-  Route::get('/blog','SiteController@blog');
-  Route::get('/blogdetails','SiteController@blogdetails');
-=======
 // Route::get('/', function () {
 //     return view('welcome');
 // });
 
 Route::namespace ('App\Http\Controllers')->group(function () {
 
+    Route::get('papaview', 'SiteController@papaview');
     Route::get('/', 'SiteController@index');
-    Route::get('shopforshop', 'SiteController@shop');
+    Route::get('shop', 'SiteController@shop');
+    Route::get('about', 'SiteController@about');
+    Route::get('product_details', 'SiteController@product_details');
+    Route::get('login', 'SiteController@login');
+    Route::get('cart', 'SiteController@cart');
+    Route::get('elements', 'SiteController@elements');
+    Route::get('confirmation', 'SiteController@confirmation');
+    Route::get('checkout', 'SiteControlloer@checkut');
+    Route::get('contact', 'SiteController@contact');
+    Route::get('login', 'SiteController@login');
+    Route::get('cart', 'SiteController@cart');
+    Route::get('elements', 'SiteController@elements');
+    Route::get('confirmation', 'SiteController@confirmation');
+    Route::get('checkout', 'SiteController@checkout');
 
->>>>>>> d245978d0427470766a2998ef6eff35820085b30
 });
